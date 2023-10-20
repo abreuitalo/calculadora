@@ -23,4 +23,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O calculator é uma simples calculadora para execução de cálculos matemáticos.
 
-Acesse através do link: https://abreuitalo.github.io/calculadora/
+Acesse através do link: <a target="_blank"> https://abreuitalo.github.io/calculadora/ <a>
