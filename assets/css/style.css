@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Pacifico&family=Roboto:ital@1&display=swap');:root {
-  --color-bg: #9AD8EF;
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Pacifico&family=Roboto:ital@1&display=swap');
+:root {
+  --color-bg: #9ad8ef;
   --cinza-claro: rgb(182, 181, 181);
   --cinza-escuro: #535353;
-  --red: #BB2200;
+  --red: #bb2200;
 }
 
 * {
@@ -69,7 +70,7 @@ input {
   background-color: var(--color-bg);
 }
 .red:hover {
-  background-color:#ca3a19;
+  background-color: #ca3a19;
 }
 
 .red {
@@ -89,4 +90,27 @@ p {
 a {
   text-decoration: none;
   color: var(--red);
+  font-weight: 600;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  padding-top: 2%;
+  font-family: 'Pacifico', cursive;
+}
+
+footer {
+  padding-top: 2%;
+}
+
+footer p span {
+  color: #ffff;
+  font-weight: 600px;
+}
+
+@media (max-width: 1280px) {
+  h1 {
+    padding-top: 5px;
+  }
 }
